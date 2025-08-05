@@ -1,10 +1,16 @@
 # Task 2: Exploratory Data Analysis (EDA)
 
+# Task 2: Life Expectancy Data Analysis
+
 This project analyzes the "Life Expectancy Data v2.csv" dataset using Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly. The goal is to understand trends and patterns in life expectancy across different countries, genders, and economic statuses.
+
+---
 
 ## Dataset
 
-The dataset contains life expectancy information for men and women, GDP, and country status (Developed or Developing), along with other health and economic indicators. Some values may be missing and are handled appropriately in this project.
+The dataset contains life expectancy information for men and women, GDP, country status (Developed or Developing), and other health and economic indicators. Some values may be missing and are handled in the analysis.
+
+---
 
 ## Objectives
 
@@ -13,49 +19,93 @@ The dataset contains life expectancy information for men and women, GDP, and cou
 - Visualize data distribution using histograms and boxplots
 - Analyze correlations between numerical features
 - Explore the relationship between GDP and life expectancy
-- Compare life expectancy based on country status
+- Compare life expectancy based on country status (Developed vs Developing)
+
+---
 
 ## Steps Performed
 
-1. **Data Loading**  
-   Loaded the dataset using Pandas and printed the first few rows, shape, data types, and checked for missing values.
+### 1. Data Loading
 
-2. **Missing Value Handling**  
-   Filled missing values in all numeric columns with their column-wise mean using Pandas.
+Loaded the dataset using Pandas and printed:
+- First few rows
+- Shape of the dataset
+- Column data types and null values
 
-3. **Histograms**  
-   Created histograms to see how numeric data is distributed across the dataset.
+### 2. Missing Value Handling
 
-4. **Boxplots**  
-   Created boxplots to detect outliers and compare life expectancy for:
-   - Men
-   - Women
+Filled missing values in numeric columns using the column mean.
 
-5. **Correlation Heatmap**  
-   Used Seaborn to generate a heatmap showing how strongly each numeric column is related to others.
+---
 
-6. **Scatter Plots using Plotly**  
-   Created interactive scatter plots to explore:
-   - GDP vs Life Expectancy (Men)
-   - GDP vs Life Expectancy (Women)  
-   Colored points by country status (Developed or Developing).
+## Visualizations
 
-7. **Status-wise Boxplots**  
-   Plotted separate boxplots comparing life expectancy for:
-   - Men by country status
-   - Women by country status
+### 3. Histograms of Numeric Features
+
+Histograms help us understand how each numeric feature is distributed — whether values are spread evenly or concentrated in a specific range.
+
+![Histogram](images/histogram.png)
+
+---
+
+### 4. Boxplots of Life Expectancy
+
+Boxplots are used to detect outliers and see the spread of life expectancy for men and women.
+
+#### Life Expectancy (Men)
+![Boxplot Men](images/boxplot_men.png)
+
+#### Life Expectancy (Women)
+![Boxplot Women](images/boxplot_women.png)
+
+---
+
+### 5. Correlation Heatmap
+
+The heatmap helps identify which features are strongly related to each other. For example, life expectancy may correlate with GDP or other health-related factors.
+
+![Heatmap](images/heatmap.png)
+
+---
+
+### 6. GDP vs Life Expectancy (Scatter Plots)
+
+Scatter plots show the relationship between GDP and life expectancy. Countries are colored by their development status.
+
+#### Men
+![Scatter Men](images/scatter_men.png)
+
+#### Women
+![Scatter Women](images/scatter_women.png)
+
+---
+
+### 7. Life Expectancy by Status
+
+These boxplots show the difference in life expectancy between Developed and Developing countries.
+
+#### Men by Status
+![Status Boxplot Men](images/status_boxplot_men.png)
+
+#### Women by Status
+![Status Boxplot Women](images/status_boxplot_women.png)
+
+---
 
 ## Libraries Used
 
 - `pandas` – for data loading and manipulation
-- `matplotlib` – for plotting static charts
-- `seaborn` – for statistical plots like heatmaps and boxplots
-- `plotly.express` – for interactive scatter plots
+- `matplotlib` – for basic plotting
+- `seaborn` – for statistical plots (boxplots, heatmaps)
+- `plotly.express` – for interactive visualizations (scatter plots)
+
+---
 
 ## How to Run
 
-1. Make sure Python is installed on your system.
-2. Place the file `Life Expectancy Data v2.csv` in the same folder as the Python script.
-3. Install the required Python libraries if not already installed:
+1. Make sure the dataset file `Life Expectancy Data v2.csv` is in the same folder as the Python script.
+2. Save the generated plots as `.png` files inside an `images/` folder.
+3. Install the required libraries (if not already installed):
    ```bash
    pip install pandas matplotlib seaborn plotly
+
