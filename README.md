@@ -56,6 +56,11 @@ Boxplots are used to detect outliers and see the spread of life expectancy for m
 
 #### Life Expectancy (Women)
 ![Life Expectancy Women](images/BoxPLot LE Women.png)
+## Life Expectancy (Women) - Boxplot
+
+This boxplot shows the spread and outliers of life expectancy for women across different countries. It helps identify how the data is distributed and whether there are any extreme values.
+
+![Life Expectancy Women](images/BoxPLot LE Women.png)
 
 ---
 
