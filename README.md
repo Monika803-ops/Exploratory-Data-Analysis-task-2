@@ -1,6 +1,5 @@
 # Task 2: Exploratory Data Analysis (EDA)
 
-# Task 2: Life Expectancy Data Analysis
 
 This project analyzes the "Life Expectancy Data v2.csv" dataset using Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly. The goal is to understand trends and patterns in life expectancy across different countries, genders, and economic statuses.
 
@@ -56,7 +55,7 @@ Boxplots are used to detect outliers and see the spread of life expectancy for m
 ![Boxplot Men](images/boxplot_men.png)
 
 #### Life Expectancy (Women)
-![Boxplot Women](images/boxplot_women.png)
+![Life Expectancy Women](images/BoxPLot LE Women.png)
 
 ---
 
