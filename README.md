@@ -1,4 +1,4 @@
-# Task 2: Life Expectancy Data Analysis
+# Task 2: Exploratory Data Analysis (EDA)
 
 This project analyzes the "Life Expectancy Data v2.csv" dataset using Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly. The goal is to understand trends and patterns in life expectancy across different countries, genders, and economic statuses.
 
