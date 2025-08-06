@@ -45,6 +45,8 @@ Histograms help us understand how each numeric feature is distributed — whethe
 
 ![Histogram of Numeric Features](images/histogram_numeric_features.png)
 ![Histogram of Numeric Features](images/histogram_numeric_features.png)
+![Life Expectancy Women Boxplot](images/boxplot_life_expectancy_women.png)
+
 
 
 ---
