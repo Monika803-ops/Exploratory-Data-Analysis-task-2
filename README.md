@@ -44,6 +44,7 @@ Filled missing values in numeric columns using the column mean.
 Histograms help us understand how each numeric feature is distributed — whether values are spread evenly or concentrated in a specific range.
 
 ![Histogram of Numeric Features](images/histogram_numeric_features.png)
+![Histogram of Numeric Features](images/histogram_numeric_features.png)
 
 
 ---
