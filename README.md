@@ -55,22 +55,20 @@ Histograms help us understand how each numeric feature is distributed — whethe
 
 Boxplots are used to detect outliers and see the spread of life expectancy for men and women.
 
-#### Life Expectancy (Men)
-![Boxplot Men](images/boxplot_men.png)
+
 ## Boxplot: Life Expectancy (Men)
 
-This boxplot shows the distribution of life expectancy for men across all countries. It helps detect outliers and understand the central tendency of male life expectancy.
+
 
 ![Boxplot: Life Expectancy (Men)](images/Boxplot_LE_MEN.png)
 
 
-#### Life Expectancy (Women)
-![Life Expectancy Women](images/BoxPLot LE Women.png)
+
 ## Life Expectancy (Women) - Boxplot
 
 This boxplot shows the spread and outliers of life expectancy for women across different countries. It helps identify how the data is distributed and whether there are any extreme values.
 
-![Life Expectancy Women](images/BoxPLot LE Women.png)
+![Life Expectancy Women](images/BoxPLot_LE_Women.png)
 
 ---
 
