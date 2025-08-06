@@ -9,6 +9,10 @@ This project analyzes the "Life Expectancy Data v2.csv" dataset using Python lib
 
 The dataset contains life expectancy information for men and women, GDP, country status (Developed or Developing), and other health and economic indicators. Some values may be missing and are handled in the analysis.
 
+The dataset used in this project is available on Kaggle:  
+[Life Expectancy Data (WHO) - Kaggle](https://www.kaggle.com/datasets/maryalebron/life-expectancy-data)
+
+
 ---
 
 ## Objectives
@@ -43,9 +47,7 @@ Filled missing values in numeric columns using the column mean.
 
 Histograms help us understand how each numeric feature is distributed — whether values are spread evenly or concentrated in a specific range.
 
-![Histogram of Numeric Features](images/histogram_numeric_features.png)
-![Histogram of Numeric Features](images/histogram_numeric_features.png)
-![Life Expectancy Women Boxplot](images/boxplot_life_expectancy_women.png)
+![Histogram of Numeric Features](images/Histogram_Numeric_feauture.png)
 
 
 
@@ -75,7 +77,7 @@ This boxplot shows the spread and outliers of life expectancy for women across d
 
 The heatmap helps identify which features are strongly related to each other. For example, life expectancy may correlate with GDP or other health-related factors.
 
-![Heatmap](images/heatmap.png)
+![Correlation Heatmap](images/Correlation_Heatmap.png)
 
 ---
 
@@ -84,10 +86,11 @@ The heatmap helps identify which features are strongly related to each other. Fo
 Scatter plots show the relationship between GDP and life expectancy. Countries are colored by their development status.
 
 #### Men
-![Scatter Men](images/scatter_men.png)
+
+![GDP vs Life Expectancy (Men)](images/GDP_vs_LE_Men.png)
 
 #### Women
-![Scatter Women](images/scatter_women.png)
+![GDP vs Life Expectancy (Women)](images/GDP_vs_LE_Women.png)
 
 ---
 
@@ -96,10 +99,10 @@ Scatter plots show the relationship between GDP and life expectancy. Countries a
 These boxplots show the difference in life expectancy between Developed and Developing countries.
 
 #### Men by Status
-![Status Boxplot Men](images/status_boxplot_men.png)
+![Life Expectancy (Men) - Developed vs Developing](images/LE_Men_develped_and_developing.png)
 
 #### Women by Status
-![Status Boxplot Women](images/status_boxplot_women.png)
+![Life Expectancy (Women) - Developed vs Developing](images/LE_Women_develped_and_developing.png)
 
 ---
 
